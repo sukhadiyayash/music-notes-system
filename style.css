@@ -1,0 +1,502 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    scroll-behavior: smooth;
+
+}
+
+
+
+.main-img {
+    background-size: cover;
+    background-image: url(images/home_img1.jpg);
+    background-attachment: fixed;
+    height: 65vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+
+}
+
+
+.animated-text {
+    position: relative;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(245, 237, 237);
+    text-align: center;
+    padding-top: 16vh;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    z-index: 2;
+}
+
+
+.container-fluid a {
+    font-weight: bold;
+    padding: 0;
+}
+
+.contain a {
+    padding-left: 50px;
+}
+
+
+/* .contain .navlink ul {
+    margin-left: 19rem;
+} */
+h1 {
+    font-weight: bold;
+}
+
+h4 {
+    font-family: 'dancing script', cursive;
+}
+
+.navbar {
+    position: sticky;
+    background-color: rgb(255, 255, 255);
+    opacity: 1;
+    border: none;
+
+}
+
+.navbar-toggler{
+    border: none;
+    color: red;
+}
+.navbar-nav{
+    margin-left: 25rem;
+
+}
+.navlink li a {
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1.5rem;
+    border-bottom:  1px solid;
+    padding: 5px;
+    border-top:1px solid red;
+    border-top-width: 20%;
+    transition: 0.5s;
+}
+
+.navlink li a:hover {
+    color: rgb(255, 255, 255);
+    background-color: #5e5d5d;
+    transform: translateY(2.2px);
+
+}
+
+
+.log {
+    display: inline;
+}
+
+.log img {
+    width: 35%;
+    height: auto;
+    position: relative;
+    filter: drop-shadow(0 0 4px rgb(243, 99, 32));
+
+
+}
+
+.main {
+    background-image: url(images/musical.png);
+    height: 65vh;
+}
+
+
+.main .head h1 {
+    color: white;
+    font-size: 5rem;
+    font-family: cursive;
+    font-style: oblique;
+    text-align: center;
+    display: block;
+    position: relative;
+    padding-top: 13rem;
+    padding-left: 3rem;
+
+}
+
+
+.text-container {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 50vh;
+}
+
+.container-fluid img {
+    width: 55px;
+    height: 7vh;
+}
+
+/* about section css */
+.about-section p{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-size: 20px;
+
+}
+
+.row .card {
+    border: solid rgb(0, 0, 0) 1px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 2px;
+
+}
+
+[data-aos] {
+    opacity: 0;
+    transition-property: transform, opacity;
+    
+}
+
+
+.card {
+    transition: 1s;
+}
+
+.card:hover {
+
+    transform: translateY(-5px);
+    box-shadow: rgb(0, 0, 0) 0px 0px 7px;
+}
+
+
+.card-body a {
+    text-emphasis: none;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-style: bold;
+    border-bottom: #3629a3 solid 1px;
+    border-top: #3629a3 solid 1px;
+    align-self:normal;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+
+}
+
+.card-link{
+    margin-top: auto;
+}
+
+
+
+/* main page image css */
+.main-img {
+
+    position: relative;
+    z-index: -1;
+    width: 100%;
+}
+
+.main-img img {
+    background-color: red;
+    width: 100%;
+    height: 60vh;
+}
+
+/* footer icon list */
+.inconlist li i a {
+    background-color: red;
+    font-style: none;
+}
+
+.iconlist li i {
+    justify-content: space-between;
+    padding: 2px;
+    margin-right: 10px;
+
+}
+/* list html page css :start */
+/* Notes html page css start */
+.btn {
+    height: 36px;
+    background-color: transparent;
+    margin-top: auto;
+}
+
+/* .content{
+    justify-content: space-around;
+    
+} */
+.content h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 3rem;
+}
+
+.content {
+    padding-bottom: 4rem;
+}
+
+.content .para p {
+    padding-top: 5rem;
+    font-size: 1.4rem;
+    font-family: cursive;
+    color: rgb(0, 0, 0);
+    background-color: rgb(225, 226, 178);
+    width: 80%;
+    margin: 0 auto;
+    border: 4px solid orange;
+    border-radius: 4px;
+
+}
+.readbtn a{
+    text-decoration: none;
+    padding: 6px;
+    border: 1px solid rgb(106, 207, 86);
+    transition: 1s;
+    font-weight: 400;
+    font-size: bold;
+}
+.readbtn a:hover{
+    background-color:rgb(106, 207, 86);
+    color: white;
+
+    
+
+}
+
+/* Notation page css */
+.filbtn {
+
+    margin-top: 1rem;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+
+.filbtn button {
+    line-height: normal;
+    position: relative;
+    display: flex;
+    
+}
+
+.listbackimg{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #c6c0fd;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.listbackimg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: inherit;
+    filter: blur(10px);
+    z-index: 1;
+}
+
+.link {
+    /*
+    width: auto;
+    margin: 60px 30px;
+    padding: 0;
+    position: relative;
+    padding: 10px 100px;
+    text-overflow: ellipsis;
+    */
+    justify-content: center;
+    background: transparent;
+    z-index: 2;
+
+    /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(13px);
+    -webkit-backdrop-filter: blur(13px); */
+    /* border-radius: 10px;
+    /* border: 1px solid rgba(255, 255, 255, 0.18); */
+}
+
+.link h1 {
+    padding-left: 0px;
+}
+
+.container {
+    margin-top: 3rem;
+    padding-bottom: 2rem;
+
+}
+.list-group{
+    background-color: transparent;
+}
+
+.container .list-group .list-group-item {
+    margin-top: 2rem;
+    box-shadow: 2px rgb(152, 204, 252) 3px 33px;
+    border: 2px solid rgb(248, 228, 228);
+}
+
+.container .list-group .list-group-item a {
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.container .list-group .list-group-item:hover {
+    border: 2px solid;
+    border-color: #f59898;
+    /* Change border color on hover */
+    transition: border-color 0.2s ease;
+    /* Transition effect */
+
+
+}
+
+
+
+
+/* footer csss */
+
+.footer {
+    width: 100%;
+    height: min-content;
+    margin: 0 auto;
+    background-color: rgb(8, 8, 8);
+    box-shadow: black 2px 1px 16px;
+    border-radius: 6px;
+    margin-bottom: 9px;
+    margin-top: 10rem;
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box img{
+    position:relative;
+    z-index:  1;
+    width: 100px;
+    border:  3px solid rgb(225, 226, 178);
+    border-radius: 50%;
+    background-color: rgb(0, 79, 153);
+    width:auto;
+    height: 50%;
+    margin: 0 auto;
+    display: inline-block;
+
+}
+.foot-link a{
+    display: inline-block;
+    margin: 0 auto;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+.social-icons {
+    display: flex;
+    gap:5px;
+}
+.social-icons a {
+    font-size: 1rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.social-icons .facebook {
+    background-color: #3b5998;
+}
+
+.social-icons .youtube {
+    background-color: #e4405f;
+}
+
+.social-icons .whatsapp {
+    background-color: #49da3b;
+}
+
+
+ /*list.html css  */
+ 
+@media only screen and (max-width: 768px) {
+    [data-aos] {
+        display: none; /* Disable AOS animations by hiding elements */
+    }
+}
+
+
+@media only screen and (max-width: 990px) {
+    /* .navbar {
+        position: sticky;
+        background-color: rgb(255, 255, 255);
+        opacity: 1;
+        border: none;
+    
+    } */
+    .navbar-nav{
+        margin-left: 0;
+    
+    }
+    .navlink li a {
+        color: rgb(0, 0, 0);
+        font-size: 1.2rem;
+        justify-content: space-between;
+
+        border: none;
+        transition: 0.5s;
+    }
+    
+    .navlink li a:hover {
+        color: rgb(255, 255, 255);
+        background-color: #5e5d5d;
+        transform: translateY(2.5px);
+    
+    }
+}
+
+/* .clr1 {
+    background-color: bisque;
+}
+
+
+.clr2 {
+    background-color: rgb(255, 212, 159);
+}
+
+
+.clr3 {
+    background-color: rgb(253, 172, 172);
+}
+
+
+
+.clr4 {
+    background-color: rgb(255, 254, 196);
+} */
